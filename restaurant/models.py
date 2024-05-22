@@ -14,4 +14,4 @@ class Menu(models.Model):
 class Book(models.Model):
     name = models.CharField(max_length=255, db_index=True)
     no_of_guests = models.IntegerField()
-    bookingdate = models.DateTimeField(auto_now_add=True)
+    bookingdate = models.DateTimeField() #auto_now_add=True)
