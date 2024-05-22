@@ -85,8 +85,8 @@ DATABASES = {
         'NAME': 'reservations',
         'HOST' : '127.0.0.1',
         'PORT' : '3306',
-        'USER' : 'root',
-        'PASSWORD' : 'Chicago1@',
+        'USER' : 'admindjango',
+        'PASSWORD' : 'employee@123!',
     }
 }
 
