@@ -8,6 +8,7 @@ from .serializers import menuSerializer, bookSerializer, UserSerializer
 from django.contrib.auth.models import User, Group
 from rest_framework.decorators import api_view, renderer_classes, permission_classes, throttle_classes
 from rest_framework.authtoken.models import Token
+from django.test import TestCase
 
 #token = Token.objects.create(user=request.user)
 #print(token.key)
@@ -66,3 +67,4 @@ class UserViewSet(viewsets.ModelViewSet):
 # @authentication_classes([TokenAuthentication])
 def msg(request):
     return Response({"message":"This view is protected"})
+
