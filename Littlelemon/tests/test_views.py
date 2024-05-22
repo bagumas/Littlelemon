@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import Menu
+from restaurant.models import Menu
 # Create your tests here.
 
 class MenuViewtest(TestCase):
